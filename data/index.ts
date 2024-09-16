@@ -1,14 +1,19 @@
 export const navItems = [
   { name: 'About', link: '#about' },
   { name: 'Projects', link: '#projects' },
-  { name: 'Testimonials', link: '#testimonials' },
+  { name: 'Experience', link: '#experience' },
   { name: 'Contact', link: '#contact' },
+  {
+    name: 'Resume',
+    link: 'https://drive.google.com/file/d/1iocT4FLOdX8ki6utYvhY_kHkzRv5gL0T/view?usp=sharing',
+  },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: 'I prioritize client collaboration, fostering open communication ',
+    title:
+      'I emphasize client partnership, promoting transparent conversations',
     description: '',
     className: 'lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]',
     imgClassName: 'w-full h-full',
@@ -18,7 +23,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title:
+      'I actively contribute to open-source projects worldwide in my free time',
     description: '',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
     imgClassName: '',
@@ -28,8 +34,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: 'My tech stack',
-    description: 'I constantly try to improve',
+    title: 'Tech stacks',
+    description: 'Continuous Learning & Growth',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
     imgClassName: '',
     titleClassName: 'justify-center',
@@ -38,7 +44,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: 'Tech enthusiast with a passion for development.',
+    title: 'Software Engineer with a passion for AI and full-stack development',
     description: '',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
     imgClassName: '',
@@ -49,8 +55,8 @@ export const gridItems = [
 
   {
     id: 5,
-    title: 'Currently building a JS Animation library',
-    description: 'The Inside Scoop',
+    title: 'Currently building AI-powered Auto-checkout bot',
+    description: 'Hacking consumerism, one bot at a time',
     className: 'md:col-span-3 md:row-span-2',
     imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
     titleClassName: 'justify-center md:justify-start lg:justify-center',
@@ -59,7 +65,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: 'Do you want to start a project together?',
+    title: 'In need of Software Development Services or Collaboration?',
     description: '',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
     imgClassName: '',
@@ -72,19 +78,19 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: '3D Solar System Planets to Explore',
-    des: 'Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.',
-    img: '/p1.svg',
+    title: 'Extract AI - AI powered PDF Analyzer',
+    des: 'PDF analyzer that enables users to interact with PDF files by asking questions and receiving answers in real-time.',
+    img: '/extract-ai-demo.png',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
-    link: 'https://github.com/adrianhajdin?tab=repositories',
+    link: 'https://github.com/sptres/extract-ai',
   },
   {
     id: 2,
-    title: 'Yoom - Video Conferencing App',
-    des: 'Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.',
-    img: '/p2.svg',
+    title: 'PieChef - Recipe Finder App',
+    des: 'A recipe finder app that allows users to search for recipes based on ingredients they have on hand.',
+    img: '/pie-chef-demo.png',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
-    link: 'https://github.com/adrianhajdin/zoom-clone',
+    link: 'https://github.com/sptres/-Pie-Chef',
   },
   {
     id: 3,
@@ -96,11 +102,11 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'Animated Apple Iphone 3D Website',
-    des: 'Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..',
-    img: '/p4.svg',
+    title: 'Games Hub - Game Store',
+    des: 'Created hub for popular games such as Flappy Bird, Wordle, O-mok and more',
+    img: '/games-hub-demo.png',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
-    link: 'https://github.com/adrianhajdin/iphone',
+    link: 'https://github.com/sptres/games-hub',
   },
 ];
 
@@ -173,29 +179,30 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: 'Frontend Engineer Intern',
-    desc: 'Assisted in the development of a web-based platform using React.js, enhancing interactivity.',
+    title: 'Software Engineer - Extract AI',
+    desc: 'Developed an AI-powered SaaS web application using NextJS, TypeScript, OpenAI, and Prisma, reducing document processing time by 40%. Scaled the platform for 10,000+ users with 99.9% uptime through auto-scaling on AWS with CloudWatch and CloudAlarm.',
     className: 'md:col-span-2',
     thumbnail: '/exp1.svg',
   },
   {
     id: 2,
-    title: 'Mobile App Dev - JSM Tech',
-    desc: 'Designed and developed mobile app for both iOS & Android platforms using React Native.',
+    title: 'Jr. Software Engineer - Eventbus Tickets',
+    desc: 'Architected a scalable ticketing web app using Docker and Kubernetes, cutting infrastructure costs by 30% and reducing deployment time by 75% with CI/CD pipelines. Implemented micro-services architecture and secure authentication using JWT.',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp2.svg',
   },
   {
     id: 3,
-    title: 'Freelance App Dev Project',
-    desc: 'Led the dev of a mobile app for a client, from initial concept to deployment on app stores.',
+    title: 'Application Programmer - ThunderATC',
+    desc: 'Engineered a high-performance restock monitoring bot that scans e-commerce websites using Python and AWS Lambda, efficiently detecting restocks and triggering automated checkout processes.',
     className: 'md:col-span-2', // change to md:col-span-2
     thumbnail: '/exp3.svg',
   },
   {
     id: 4,
-    title: 'Lead Frontend Developer',
-    desc: 'Developed and maintained user-facing features using modern frontend technologies.',
+
+    title: 'MERN Stack Web Developer - Chinatownsole',
+    desc: 'Built a MERN e-commerce web application using Prisma, Amazon S3, TypeScript, React, Stripe, and Kinde.',
     className: 'md:col-span-2',
     thumbnail: '/exp4.svg',
   },
@@ -205,13 +212,11 @@ export const socialMedia = [
   {
     id: 1,
     img: '/git.svg',
+    url: 'https://github.com/sptres',
   },
   {
     id: 2,
-    img: '/twit.svg',
-  },
-  {
-    id: 3,
     img: '/link.svg',
+    url: 'https://www.linkedin.com/in/seunghyukpark',
   },
 ];

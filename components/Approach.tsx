@@ -8,54 +8,52 @@ const Approach = () => {
   return (
     <section className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        <span className="text-orange">Development</span> steps
       </h1>
-      {/* remove bg-white dark:bg-black */}
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
-        {/* add des prop */}
+        {/* Step 1: Very Light Orange */}
         <Card
-          title="Planning & Strategy"
-          icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          title="Design & Architect"
+          icon={<AceternityIcon order="Step 1" />}
+          des="We'll design and architect the website, defining the overall structure and layout. This step involves understanding the user's needs, setting the aesthetic tone, and planning the technical architecture."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
-            // add these classed for the border rounded overflowing -> rounded-3xl overflow-hidden
-            containerClassName="bg-emerald-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-orange-100 rounded-3xl overflow-hidden"
+            colors={[
+              [255, 223, 186], // Very light orange
+            ]}
           />
         </Card>
+
+        {/* Step 2: Medium Orange */}
         <Card
-          title="Development & Progress Update"
-          icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          title="Development & Testing"
+          icon={<AceternityIcon order="Step 2" />}
+          des="During this phase, we bring the designs to life by writing the code. Alongside development, we conduct rigorous testing to ensure the website functions as expected across all devices and scenarios."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            // change bg-black to bg-pink-900
-            containerClassName="bg-pink-900 rounded-3xl overflow-hidden"
+            containerClassName="bg-orange-300 rounded-3xl overflow-hidden"
             colors={[
-              // change the colors of the
-              [255, 166, 158],
-              [221, 255, 247],
+              [255, 165, 0], // Medium orange
             ]}
             dotSize={2}
           />
         </Card>
+
+        {/* Step 3: Strong Orange */}
         <Card
-          title="Development & Launch"
-          icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          title="Deployment & Improvements"
+          icon={<AceternityIcon order="Step 3" />}
+          des="We deploy the website and monitor its performance. Based on user feedback, we continuously make improvements to enhance the user experience and maintain the website's performance."
         >
           <CanvasRevealEffect
             animationSpeed={3}
-            containerClassName="bg-sky-600 rounded-3xl overflow-hidden"
-            colors={[[125, 211, 252]]}
+            containerClassName="bg-orange-500 rounded-3xl overflow-hidden"
+            colors={[
+              [255, 140, 0], // Strong orange
+            ]}
           />
         </Card>
       </div>
@@ -152,11 +150,11 @@ const AceternityIcon = ({ order }: { order: string }) => {
       <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
         <span
           className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite]
-         bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
+         bg-[conic-gradient(from_90deg_at_50%_50%,#fcffcb_0%,#FFA500_50%,#9b965a_100%)]"
         />
         <span
           className="inline-flex h-full w-full cursor-pointer items-center 
-        justify-center rounded-full bg-slate-950 px-5 py-2 text-purple backdrop-blur-3xl font-bold text-2xl"
+        justify-center rounded-full bg-slate-950 px-5 py-2 text-orange backdrop-blur-3xl font-bold text-2xl"
         >
           {order}
         </span>

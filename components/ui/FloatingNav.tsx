@@ -69,20 +69,35 @@ export const FloatingNav = ({
           border: '1px solid rgba(255, 255, 255, 0.125)',
         }}
       >
-        {navItems.map((navItem: any, idx: number) => (
-          <Link
-            key={`link=${idx}`}
-            href={navItem.link}
-            className={cn(
-              'relative dark:text-neutral-50 items-center  flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500'
-            )}
-          >
-            <span className="block sm:hidden">{navItem.icon}</span>
-            {/* add !cursor-pointer */}
-            {/* remove hidden sm:block for the mobile responsive */}
-            <span className=" text-sm !cursor-pointer">{navItem.name}</span>
-          </Link>
-        ))}
+        {navItems.map((navItem: any, idx: number) =>
+          idx === 4 ? (
+            // For idx 4, use a regular <a> tag to open in a new window
+            <a
+              key={`link=${idx}`}
+              href={navItem.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={cn(
+                'relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500'
+              )}
+            >
+              <span className="block sm:hidden">{navItem.icon}</span>
+              <span className="text-sm !cursor-pointer">{navItem.name}</span>
+            </a>
+          ) : (
+            // For other indexes, use the Link component as usual
+            <Link
+              key={`link=${idx}`}
+              href={navItem.link}
+              className={cn(
+                'relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500'
+              )}
+            >
+              <span className="block sm:hidden">{navItem.icon}</span>
+              <span className="text-sm !cursor-pointer">{navItem.name}</span>
+            </Link>
+          )
+        )}
       </motion.div>
     </AnimatePresence>
   );

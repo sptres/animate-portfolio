@@ -5,7 +5,7 @@ export const navItems = [
   { name: 'Contact', link: '#contact' },
   {
     name: 'Resume',
-    link: 'https://drive.google.com/file/d/1iocT4FLOdX8ki6utYvhY_kHkzRv5gL0T/view?usp=sharing',
+    link: 'https://drive.google.com/file/d/1iocT4FLOdX8ki6utYvhY_kHkzRv5gL0T/view?usp=sharing#about',
   },
 ];
 
@@ -81,7 +81,7 @@ export const projects = [
     title: 'Extract AI - AI powered PDF Analyzer',
     des: 'PDF analyzer that enables users to interact with PDF files by asking questions and receiving answers in real-time.',
     img: '/extract-ai-demo.png',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/fm.svg'],
+    iconLists: ['/chatgpt.svg', '/next.svg', '/re.svg', '/tail.svg', '/ts.svg'],
     link: 'https://github.com/sptres/extract-ai',
   },
   {
@@ -89,7 +89,13 @@ export const projects = [
     title: 'PieChef - Recipe Finder App',
     des: 'A recipe finder app that allows users to search for recipes based on ingredients they have on hand.',
     img: '/pie-chef-demo.png',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
+    iconLists: [
+      '/next.svg',
+      '/tail.svg',
+      '/ts.svg',
+      '/yelp.svg',
+      '/mongodb.svg',
+    ],
     link: 'https://github.com/sptres/-Pie-Chef',
   },
   {
@@ -105,7 +111,13 @@ export const projects = [
     title: 'Games Hub - Game Store',
     des: 'Created hub for popular games such as Flappy Bird, Wordle, O-mok and more',
     img: '/games-hub-demo.png',
-    iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/three.svg', '/gsap.svg'],
+    iconLists: [
+      '/javascript.svg',
+      '/tail.svg',
+      '/re.svg',
+      '/html.svg',
+      '/aws.svg',
+    ],
     link: 'https://github.com/sptres/games-hub',
   },
 ];

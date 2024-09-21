@@ -100,11 +100,17 @@ export const projects = [
   },
   {
     id: 3,
-    title: 'AI Image SaaS - Canva Application',
-    des: 'A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.',
-    img: '/p3.svg',
-    iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-    link: 'https://github.com/adrianhajdin/ai_saas_app',
+    title: '30cial - MERN Stack Twitter(X) clone',
+    des: 'Fun twitter clone',
+    img: '/demo.jpg',
+    iconLists: [
+      '/re.svg',
+      '/amazon.svg',
+      '/ts.svg',
+      '/mongodb.svg',
+      '/nodejs.svg',
+    ],
+    link: 'https://github.com/spres/socialogy',
   },
   {
     id: 4,

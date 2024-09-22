@@ -1,37 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Animate Portfolio
 
-## Getting Started
+Animate Portfolio is a modern, interactive portfolio website built to showcase creative projects and personal work in a visually appealing and dynamic way. It utilizes 3D animations, interactive components, and smooth transitions to create an engaging experience.
 
-First, run the development server:
+![Demo 1](./demo1.png)
+![Demo 2](./demo2.png)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 3D visualizations with Three.js and React Three Fiber
+- Smooth animations powered by Framer Motion
+- Dark mode and theme switching using Next Themes
+- Interactive globe visualization with Three Globe
+- Responsive design with Tailwind CSS
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Frontend
 
-## Learn More
+- **React**: ^18
+- **Next.js**: 14.2.11
+- **TypeScript**: ^5
+- **Tailwind CSS**: ^3.4.1
+- **Framer Motion**: ^11.5.4
+- **Three.js**: ^0.168.0
+- **React Three Fiber**: ^8.17.7
+- **React Lottie**: ^1.2.4
+- **React Icons**: ^5.3.0
 
-To learn more about Next.js, take a look at the following resources:
+### Development Tools
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **ESLint**: ^8 (Linting)
+- **TypeScript**: Strongly typed language support
+- **PostCSS**: CSS transformations and utilities
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Installation
 
-## Deploy on Vercel
+### Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Node.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# animate-portfolio
+### Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/animate-portfolio.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd animate-portfolio
+   ```
+
+3. Install the dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Build the project for production:
+
+   ```bash
+   npm run build
+   ```
+
+6. Start the production server:
+   ```bash
+   npm run start
+   ```
+
+## Usage
+
+Once the server is running, you can view the portfolio at `http://localhost:3000`.
+
+## License
+
+This project is licensed under the ISC License.

@@ -60,7 +60,7 @@ export const gridItems = [
     className: 'md:col-span-3 md:row-span-2',
     imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
     titleClassName: 'justify-center md:justify-start lg:justify-center',
-    img: '/b5.svg',
+    img: '/code.svg',
     spareImg: '/grid.svg',
   },
   {
@@ -101,7 +101,7 @@ export const projects = [
   {
     id: 3,
     title: '30cial - MERN Stack Twitter(X) clone',
-    des: 'Fun twitter clone',
+    des: 'Fun twitter clone app built with MERN stack, featuring user authentication, posting, and commenting.',
     img: '/demo.jpg',
     iconLists: [
       '/re.svg',
@@ -114,16 +114,10 @@ export const projects = [
   },
   {
     id: 4,
-    title: 'Games Hub - Game Store',
-    des: 'Created hub for popular games such as Flappy Bird, Wordle, O-mok and more',
-    img: '/games-hub-demo.png',
-    iconLists: [
-      '/javascript.svg',
-      '/tail.svg',
-      '/re.svg',
-      '/html.svg',
-      '/aws.svg',
-    ],
+    title: 'AskAway - AI powered Local Chatbot',
+    des: 'Chatbot hosted locally that answers questions about current URL using upstash',
+    img: '/askway-demo.jpg',
+    iconLists: ['/next.svg', '/ts.svg', '/re.svg', '/html.svg', '/aws.svg'],
     link: 'https://github.com/sptres/games-hub',
   },
 ];
@@ -200,29 +194,29 @@ export const workExperience = [
     title: 'Software Engineer - Extract AI',
     desc: 'Developed an AI-powered SaaS web application using NextJS, TypeScript, OpenAI, and Prisma, reducing document processing time by 40%. Scaled the platform for 10,000+ users with 99.9% uptime through auto-scaling on AWS with CloudWatch and CloudAlarm.',
     className: 'md:col-span-2',
-    thumbnail: '/exp1.svg',
+    thumbnail: '/exp11.svg',
   },
   {
     id: 2,
-    title: 'Jr. Software Engineer - Eventbus Tickets',
-    desc: 'Architected a scalable ticketing web app using Docker and Kubernetes, cutting infrastructure costs by 30% and reducing deployment time by 75% with CI/CD pipelines. Implemented micro-services architecture and secure authentication using JWT.',
-    className: 'md:col-span-2', // change to md:col-span-2
-    thumbnail: '/exp2.svg',
+
+    title: 'Software Developing Engineer - Chinatownsole',
+    desc: 'Built a MERN e-commerce web application using Prisma, Amazon S3, TypeScript, React, Stripe, and Kinde.',
+    className: 'md:col-span-2',
+    thumbnail: '/exp22.svg',
   },
   {
     id: 3,
     title: 'Application Programmer - ThunderATC',
     desc: 'Engineered a high-performance restock monitoring bot that scans e-commerce websites using Python and AWS Lambda, efficiently detecting restocks and triggering automated checkout processes.',
     className: 'md:col-span-2', // change to md:col-span-2
-    thumbnail: '/exp3.svg',
+    thumbnail: '/exp33.svg',
   },
   {
     id: 4,
-
-    title: 'MERN Stack Web Developer - Chinatownsole',
-    desc: 'Built a MERN e-commerce web application using Prisma, Amazon S3, TypeScript, React, Stripe, and Kinde.',
+    title: 'Mathematics Tutor - UC Irvine',
+    desc: 'Tutored students in calculus, linear algebra, and differential equations, improving student grades by 30%.',
     className: 'md:col-span-2',
-    thumbnail: '/exp4.svg',
+    thumbnail: '/exp44.svg',
   },
 ];
 

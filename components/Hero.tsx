@@ -22,7 +22,16 @@ const Hero = () => {
         <div className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black-100 bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
+      {/* Image Box */}
+      <div className="flex justify-center my-10 relative z-10">
+        <img
+          src="/profile.png"
+          alt="Profile Picture"
+          className="w-40 h-40 rounded-full object-cover border-4 border-white shadow-lg mb-0"
+        />
+      </div>
+
+      <div className="flex justify-center relative my-20 z-10 mt-0">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <TextGenerateEffect
             className="text-center text-[40px] md:text-5xl lg:text-6xl"

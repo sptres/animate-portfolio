@@ -134,6 +134,14 @@ export const projects = [
     ],
     link: 'https://github.com/sptres/album-finder',
   },
+  {
+    id: 6,
+    title: 'Games Hub - Local Game Store',
+    des: 'Play popular games like Flappy Bird, Omok, and Wordle on your local machine',
+    img: '/games-hub-demo.png',
+    iconLists: ['/ts.svg', '/re.svg', '/html.svg', '/aws.svg'],
+    link: 'https://github.com/sptres/games-hub',
+  },
 ];
 
 export const testimonials = [

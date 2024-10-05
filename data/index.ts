@@ -120,6 +120,20 @@ export const projects = [
     iconLists: ['/next.svg', '/ts.svg', '/re.svg', '/html.svg', '/aws.svg'],
     link: 'https://github.com/sptres/games-hub',
   },
+  {
+    id: 5,
+    title: 'Album Finder - Spotify API',
+    des: 'Search for your favorite albums and listen to them on Spotify',
+    img: '/album-finder.png',
+    iconLists: [
+      '/spotify.svg',
+      '/ts.svg',
+      '/re.svg',
+      '/bootstrap.svg',
+      '/html.svg',
+    ],
+    link: 'https://github.com/sptres/album-finder',
+  },
 ];
 
 export const testimonials = [
